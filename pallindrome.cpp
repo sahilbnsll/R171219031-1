@@ -10,7 +10,7 @@ int main()
      cin >> num;
 
      n = num;
-
+//use of do-while loop here
      do
      {
          digit = num % 10;
