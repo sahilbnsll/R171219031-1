@@ -28,6 +28,10 @@ int main()
 
     return 0;
 }
+<<<<<<< HEAD
 
 //program ends here
+=======
+//end of the program
 
+>>>>>>> sahil_hotfix
