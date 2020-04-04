@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std; 
 int stack[100], n=100, top=-1;
-void push(int val) {
+void push(int val) //the push() function takes argument value
+{
    if(top>=n-1)
       cout<<"Stack Overflow"<<endl; 
    else {
@@ -18,7 +19,8 @@ void pop() //The pop() function pops the topmost value of the stack
       top--;
    }
 }
-void display() {
+void display() //The display() function displays all the elements in the stack
+{
    if(top>=0) {
       cout<<"Stack elements are:";
       for(int i=top; i>=0; i--)
@@ -63,3 +65,4 @@ int main() //The function main() provides a choice to the user if they want to p
    }while(ch!=4); 
       return 0;
 }
+//end of program
