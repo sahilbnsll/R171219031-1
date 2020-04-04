@@ -1,4 +1,5 @@
 PROGRAM TO CHECK WHEATHER THE NUMBER IS PALLINDROME OR NOT
+
 #include <iostream>
 using namespace std;
 
@@ -27,5 +28,5 @@ int main()
 
     return 0;
 }
-
+//end of the program
 
