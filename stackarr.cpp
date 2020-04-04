@@ -1,3 +1,5 @@
+//C++ Program to Implement Stack using array
+
 #include <iostream>
 using namespace std; 
 int stack[100], n=100, top=-1;
