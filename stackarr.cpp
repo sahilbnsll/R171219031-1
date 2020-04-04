@@ -27,7 +27,8 @@ void display() {
    } else
       cout<<"Stack is empty";
 }
-int main() {
+int main() //The function main() provides a choice to the user if they want to push, pop or display the stack
+{
    int ch, val; 
    cout<<"1) Push in stack"<<endl;
    cout<<"2) Pop from stack"<<endl;
