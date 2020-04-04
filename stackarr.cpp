@@ -31,7 +31,7 @@ void display() //The display() function displays all the elements in the stack
    } else
       cout<<"Stack is empty";
 }
-int main() //The function main() provides a choice to the user if they want to push, pop or display the stack
+int main() //The function main() provides a choice to the user if they want to push, pop or display the stack.
 {
    int ch, val; 
    cout<<"1) Push in stack"<<endl;
