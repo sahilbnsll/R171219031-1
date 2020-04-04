@@ -1,3 +1,4 @@
+PROGRAM TO CHECK WHEATHER THE NUMBER IS PALLINDROME OR NOT
 #include <iostream>
 using namespace std;
 
