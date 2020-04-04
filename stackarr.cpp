@@ -18,7 +18,8 @@ void pop() {
       top--;
    }
 }
-void display() {
+void display() //The display() function displays all the elements in the stack
+{
    if(top>=0) {
       cout<<"Stack elements are:";
       for(int i=top; i>=0; i--)
