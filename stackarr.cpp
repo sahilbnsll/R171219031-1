@@ -12,7 +12,8 @@ void push(int val) //the push() function takes argument value
       stack[top]=val;
    }
 }
-void pop() {
+void pop() //The pop() function pops the topmost value of the stack
+{
    if(top<=-1)
       cout<<"Stack Underflow"<<endl;
    else {
