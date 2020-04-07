@@ -1,9 +1,13 @@
+<<<<<<< HE
+AD
 <<<<<<< HEAD
 //program for matrix multiplication for any order
 =======
 //program for matrix multiplication
 >>>>>>> shivansh
 
+=======
+>>>>>>> sahil_hotfix
 #include <iostream>  
 using namespace std;  
 int main()  
@@ -41,6 +45,7 @@ mul[i][j]+=a[i][k]*b[k][j];
 }    
 }    
 <<<<<<< HEAD
+<<<<<<< HEAD
 } 
 cout<<"\n";    
 }    
@@ -58,3 +63,17 @@ for(j=0;j<c;j++)
 cout<<mul[i][j]<<" ";
 }
 >>>>>>> shivansh
+=======
+}    
+//for printing result    
+for(i=0;i<r;i++)    
+{    
+for(j=0;j<c;j++)    
+{    
+cout<<mul[i][j]<<" ";    
+}    
+cout<<"\n";    
+}    
+return 0;  
+}    
+>>>>>>> sahil_hotfix
