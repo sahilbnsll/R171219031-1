@@ -34,4 +34,8 @@ for(k=0;k<c;k++)
 mul[i][j]+=a[i][k]*b[k][j];    
 }    
 }    
-}   
+} 
+cout<<"\n";    
+}    
+return 0;  
+} 
