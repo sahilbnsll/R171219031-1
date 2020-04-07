@@ -1,3 +1,5 @@
+//program for matrix multiplication
+
 #include <iostream>  
 using namespace std;  
 int main()  
