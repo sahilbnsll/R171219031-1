@@ -1,51 +1,50 @@
 number to character
 
-#include <iostream>  
-using namespace std;  
-int main()  
-{  
-long int n,sum=0,r;    
-cout<<"Enter the Number= ";    
-cin>>n;    
-while(n>0)    
-{    
-r=n%10;    
-sum=sum*10+r;    
-n=n/10;    
-}    
-n=sum;    
-while(n>0)    
-{    
-r=n%10;    
-switch(r)    
-{    
-case 1:    
-cout<<"one ";    
-break;    
-case 2:    
-cout<<"two ";    
-break;    
-case 3:    
-cout<<"three ";  
-break;    
-case 4:    
-cout<<"four ";  
-break;    
-case 5:    
-cout<<"five ";  
-break;    
+#include <iostream>
+using namespace std;
+int main()
+{
+long int n,sum=0,r;
+cout<<"Enter the Number= ";
+cin>>n;
+while(n>0)
+{
+r=n%10;
+sum=sum*10+r;
+n=n/10;
+}
+n=sum;
+while(n>0)
+{
+r=n%10;
+switch(r)    //Switch Case 
+{
+case 1:
+  cout<<"one ";
+break;
+case 2:
+  cout<<"two ";
+break;
+case 3:
+  cout<<"three ";
+break;
+case 4:
+  cout<<"four ";
+break;
+case 5:
+  cout<<"five ";
+break;
 case 9:
-cout<<"nine ";
+  cout<<"nine ";
 break;
 case 0:
-cout<<"zero ";
+  cout<<"zero ";
 break;
 default:
-cout<<"tttt ";
+  cout<<"tttt ";
 break;
 }
 n=n/10;
 }
 }
 //end of the program
-
