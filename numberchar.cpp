@@ -34,3 +34,17 @@ break;
 case 5:    
 cout<<"five ";  
 break;    
+case 9:
+cout<<"nine ";
+break;
+case 0:
+cout<<"zero ";
+break;
+default:
+cout<<"tttt ";
+break;
+}
+n=n/10;
+}
+}
+
