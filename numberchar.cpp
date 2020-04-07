@@ -34,3 +34,12 @@ break;
 case 5:    
 cout<<"five ";  
 break;    
+case 6:
+cout<<"six ";
+break;
+case 7:
+cout<<"seven ";
+break;
+case 8:
+cout<<"eight ";
+break;
