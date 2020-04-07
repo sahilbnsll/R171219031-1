@@ -43,3 +43,17 @@ break;
 case 8:
 cout<<"eight ";
 break;
+case 9:
+cout<<"nine ";
+break;
+case 0:
+cout<<"zero ";
+break;
+default:
+cout<<"tttt ";
+break;
+}
+n=n/10;
+}
+}
+
